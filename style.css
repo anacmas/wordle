@@ -1,0 +1,59 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(5, 45, 69);
+}
+
+.container-geral {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.quadrados-container {
+    width: 330px;
+    margin-bottom: 30px;
+}
+
+.teclado-container {
+    width: 510px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.teclado-container button {
+    width: 43px;
+    height: 58px;
+    border-radius: 4px;
+    border: none;
+    background-color: #818384;
+    margin: 4px;
+}
+
+.teclado-container button:nth-child(11) {
+    margin-left: 30px;
+}
+
+.teclado-container button:nth-child(20), 
+.teclado-container button:nth-child(28) {
+    width: 68px;
+}
+
+.quadrados-container div {
+        display: flex;
+}
+
+.quadrados-container .quadrado {
+    width: 62px;
+    height: 62px;
+    border: 2px solid #3a3a3c;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+}
