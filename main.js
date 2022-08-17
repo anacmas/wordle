@@ -49,6 +49,6 @@ const handleClick = (letra) => {
 const adicionaLetra = (letra) => {
     const quadrado = document.getElementById('linhaAdivinhar-' + linhaAtual + '-quadrado-' + quadradoAtual)
     quadrado.textContent = letra
-    linhasAdivinhar[linhaAtual]
+    linhasAdivinhar[linhaAtual][quadradoAtual]
     quadradoAtual++
 }
