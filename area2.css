@@ -4,7 +4,7 @@ body {
     align-items: center;
 }
 
-.area2 {
+.teclado-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -20,9 +20,9 @@ body {
     border-color: var(--cinza-claro);
     border-style: solid;
     border-radius: 3px;
-    margin: 4px 2px;
-    width: 25px;
-    height: 45px;
+    margin: 4px 3px;
+    width: 43px;
+    height: 58px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,40 +47,14 @@ body {
     background-color: var(--cinza-escuro);
 }
 
-.tecla-amarela {
-    border-width: 1px;
-    border-color: var(--amarelo);
-    border-style: solid;
-    border-radius: 3px;
-    margin: 4px 2px;
-    color: #FFFFFF;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--amarelo);
-}
-
-.tecla-verde {
-    border-width: 1px;
-    border-color: var(--verde);
-    border-style: solid;
-    border-radius: 3px;
-    margin: 4px 2px;
-    color: #FFFFFF;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--verde);
-}
-
 .teclas-enter, .teclas-apaga {
     border-width: 1px;
     border-color: var(--cinza-claro);
     border-style: solid;
     border-radius: 3px;
     margin: 4px 2px;
-    width: 55px;
-    height: 45px;
+    width: 65px;
+    height: 58px;
     display: flex;
     justify-content: center;
     align-items: center;
